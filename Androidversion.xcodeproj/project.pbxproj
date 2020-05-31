@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		11A9A5CC247FE038006C6ED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9A5CB247FE038006C6ED2 /* AppDelegate.swift */; };
 		11A9A5CE247FE038006C6ED2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9A5CD247FE038006C6ED2 /* SceneDelegate.swift */; };
-		11A9A5D0247FE038006C6ED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9A5CF247FE038006C6ED2 /* ViewController.swift */; };
-		11A9A5D3247FE038006C6ED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A9A5D1247FE038006C6ED2 /* Main.storyboard */; };
 		11A9A5D5247FE039006C6ED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A9A5D4247FE039006C6ED2 /* Assets.xcassets */; };
 		11A9A5D8247FE039006C6ED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A9A5D6247FE039006C6ED2 /* LaunchScreen.storyboard */; };
+		11A9A5E4247FE0C2006C6ED2 /* AndroidVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9A5E3247FE0C2006C6ED2 /* AndroidVersion.swift */; };
+		11A9A5EF247FE134006C6ED2 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9A5E9247FE134006C6ED2 /* HomeTableViewCell.swift */; };
+		11A9A5F0247FE134006C6ED2 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11A9A5EA247FE134006C6ED2 /* HomeViewController.xib */; };
+		11A9A5F1247FE134006C6ED2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9A5EB247FE134006C6ED2 /* HomeViewController.swift */; };
+		11A9A5F2247FE134006C6ED2 /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11A9A5EC247FE134006C6ED2 /* HomeTableViewCell.xib */; };
+		11A9A5F3247FE134006C6ED2 /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9A5ED247FE134006C6ED2 /* HomeTabBarViewController.swift */; };
+		11A9A5FA247FEE6C006C6ED2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A9A5F8247FEE6C006C6ED2 /* ProfileViewController.swift */; };
+		11A9A5FB247FEE6C006C6ED2 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11A9A5F9247FEE6C006C6ED2 /* ProfileViewController.xib */; };
+		11F21E4A248352D400D21D4C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F21E48248352D400D21D4C /* DetailViewController.swift */; };
+		11F21E4B248352D400D21D4C /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F21E49248352D400D21D4C /* DetailViewController.xib */; };
+		11F21E5324835D4200D21D4C /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F21E5224835D4200D21D4C /* UIColor.swift */; };
+		11F21E55248360BA00D21D4C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F21E54248360BA00D21D4C /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11A9A5C8247FE038006C6ED2 /* Androidversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Androidversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A9A5CB247FE038006C6ED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11A9A5CD247FE038006C6ED2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11A9A5CF247FE038006C6ED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		11A9A5D2247FE038006C6ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11A9A5D4247FE039006C6ED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11A9A5D7247FE039006C6ED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11A9A5D9247FE039006C6ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A9A5E3247FE0C2006C6ED2 /* AndroidVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidVersion.swift; sourceTree = "<group>"; };
+		11A9A5E9247FE134006C6ED2 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		11A9A5EA247FE134006C6ED2 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		11A9A5EB247FE134006C6ED2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		11A9A5EC247FE134006C6ED2 /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
+		11A9A5ED247FE134006C6ED2 /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
+		11A9A5F8247FEE6C006C6ED2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		11A9A5F9247FEE6C006C6ED2 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		11F21E48248352D400D21D4C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		11F21E49248352D400D21D4C /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		11F21E5224835D4200D21D4C /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		11F21E54248360BA00D21D4C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,89 @@
 		11A9A5CA247FE038006C6ED2 /* Androidversion */ = {
 			isa = PBXGroup;
 			children = (
-				11A9A5CB247FE038006C6ED2 /* AppDelegate.swift */,
-				11A9A5CD247FE038006C6ED2 /* SceneDelegate.swift */,
-				11A9A5CF247FE038006C6ED2 /* ViewController.swift */,
-				11A9A5D1247FE038006C6ED2 /* Main.storyboard */,
-				11A9A5D4247FE039006C6ED2 /* Assets.xcassets */,
-				11A9A5D6247FE039006C6ED2 /* LaunchScreen.storyboard */,
+				11F21E4024834FB600D21D4C /* Resource */,
+				11A9A5DF247FE03E006C6ED2 /* Base */,
+				11A9A5E2247FE0B0006C6ED2 /* Model */,
+				11A9A5E1247FE04D006C6ED2 /* Controller */,
 				11A9A5D9247FE039006C6ED2 /* Info.plist */,
 			);
 			path = Androidversion;
+			sourceTree = "<group>";
+		};
+		11A9A5DF247FE03E006C6ED2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				11A9A5CB247FE038006C6ED2 /* AppDelegate.swift */,
+				11A9A5CD247FE038006C6ED2 /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		11A9A5E1247FE04D006C6ED2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				11A9A5E7247FE134006C6ED2 /* Home */,
+				11F21E47248352BA00D21D4C /* DetailVersion */,
+				11A9A5F7247FEE57006C6ED2 /* Profile */,
+				11A9A5ED247FE134006C6ED2 /* HomeTabBarViewController.swift */,
+				11A9A5D6247FE039006C6ED2 /* LaunchScreen.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		11A9A5E2247FE0B0006C6ED2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11A9A5E3247FE0C2006C6ED2 /* AndroidVersion.swift */,
+				11F21E54248360BA00D21D4C /* Profile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11A9A5E7247FE134006C6ED2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				11A9A5EA247FE134006C6ED2 /* HomeViewController.xib */,
+				11A9A5EB247FE134006C6ED2 /* HomeViewController.swift */,
+				11A9A5EC247FE134006C6ED2 /* HomeTableViewCell.xib */,
+				11A9A5E9247FE134006C6ED2 /* HomeTableViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		11A9A5F7247FEE57006C6ED2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				11A9A5F8247FEE6C006C6ED2 /* ProfileViewController.swift */,
+				11A9A5F9247FEE6C006C6ED2 /* ProfileViewController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		11F21E4024834FB600D21D4C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				11F21E4F24835C1900D21D4C /* Extension */,
+				11A9A5D4247FE039006C6ED2 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		11F21E47248352BA00D21D4C /* DetailVersion */ = {
+			isa = PBXGroup;
+			children = (
+				11F21E48248352D400D21D4C /* DetailViewController.swift */,
+				11F21E49248352D400D21D4C /* DetailViewController.xib */,
+			);
+			path = DetailVersion;
+			sourceTree = "<group>";
+		};
+		11F21E4F24835C1900D21D4C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				11F21E5224835D4200D21D4C /* UIColor.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +220,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				11A9A5D8247FE039006C6ED2 /* LaunchScreen.storyboard in Resources */,
+				11F21E4B248352D400D21D4C /* DetailViewController.xib in Resources */,
 				11A9A5D5247FE039006C6ED2 /* Assets.xcassets in Resources */,
-				11A9A5D3247FE038006C6ED2 /* Main.storyboard in Resources */,
+				11A9A5F2247FE134006C6ED2 /* HomeTableViewCell.xib in Resources */,
+				11A9A5FB247FEE6C006C6ED2 /* ProfileViewController.xib in Resources */,
+				11A9A5F0247FE134006C6ED2 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +235,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11A9A5D0247FE038006C6ED2 /* ViewController.swift in Sources */,
+				11F21E4A248352D400D21D4C /* DetailViewController.swift in Sources */,
+				11A9A5EF247FE134006C6ED2 /* HomeTableViewCell.swift in Sources */,
+				11A9A5E4247FE0C2006C6ED2 /* AndroidVersion.swift in Sources */,
 				11A9A5CC247FE038006C6ED2 /* AppDelegate.swift in Sources */,
+				11A9A5F3247FE134006C6ED2 /* HomeTabBarViewController.swift in Sources */,
+				11F21E5324835D4200D21D4C /* UIColor.swift in Sources */,
+				11A9A5F1247FE134006C6ED2 /* HomeViewController.swift in Sources */,
+				11F21E55248360BA00D21D4C /* Profile.swift in Sources */,
+				11A9A5FA247FEE6C006C6ED2 /* ProfileViewController.swift in Sources */,
 				11A9A5CE247FE038006C6ED2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +251,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		11A9A5D1247FE038006C6ED2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				11A9A5D2247FE038006C6ED2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		11A9A5D6247FE039006C6ED2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

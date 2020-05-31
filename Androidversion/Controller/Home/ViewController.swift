@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Androidversion
+//  MukjizatNabi
 //
-//  Created by ArifRachman on 28/05/20.
+//  Created by ArifRachman on 27/05/20.
 //  Copyright © 2020 ArifRachman. All rights reserved.
 //
 
