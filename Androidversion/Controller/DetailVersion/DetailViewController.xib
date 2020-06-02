@@ -46,18 +46,17 @@
                         </label>
                     </subviews>
                     <constraints>
+                        <constraint firstItem="UNR-6N-kne" firstAttribute="leading" secondItem="cfV-Z8-Bcl" secondAttribute="leading" id="3hO-Os-rcQ"/>
                         <constraint firstAttribute="trailing" secondItem="AqE-HE-bAH" secondAttribute="trailing" constant="16" id="48L-or-mUt"/>
                         <constraint firstItem="cfV-Z8-Bcl" firstAttribute="top" secondItem="UNR-6N-kne" secondAttribute="bottom" constant="24" id="5j6-5w-epw"/>
-                        <constraint firstItem="AqE-HE-bAH" firstAttribute="trailing" secondItem="UNR-6N-kne" secondAttribute="trailing" id="BNw-rI-8Xp"/>
-                        <constraint firstItem="AqE-HE-bAH" firstAttribute="leading" secondItem="UNR-6N-kne" secondAttribute="leading" id="CpT-Fu-0Ck"/>
-                        <constraint firstItem="UNR-6N-kne" firstAttribute="leading" secondItem="cfV-Z8-Bcl" secondAttribute="leading" id="Hea-v6-ZIq"/>
-                        <constraint firstItem="UNR-6N-kne" firstAttribute="trailing" secondItem="cfV-Z8-Bcl" secondAttribute="trailing" id="NsG-cN-ggY"/>
-                        <constraint firstItem="cfV-Z8-Bcl" firstAttribute="width" secondItem="1Zn-Rf-l2O" secondAttribute="width" multiplier="0.914667" id="PSf-g1-Qwx"/>
+                        <constraint firstItem="AqE-HE-bAH" firstAttribute="centerX" secondItem="1Zn-Rf-l2O" secondAttribute="centerX" id="5sl-1z-Gdi"/>
+                        <constraint firstItem="UNR-6N-kne" firstAttribute="trailing" secondItem="cfV-Z8-Bcl" secondAttribute="trailing" id="BdY-CQ-b4h"/>
+                        <constraint firstItem="AqE-HE-bAH" firstAttribute="leading" secondItem="1Zn-Rf-l2O" secondAttribute="leading" constant="16" id="Cue-ic-RBG"/>
+                        <constraint firstItem="AqE-HE-bAH" firstAttribute="trailing" secondItem="UNR-6N-kne" secondAttribute="trailing" id="QMu-kq-MbL"/>
                         <constraint firstItem="AqE-HE-bAH" firstAttribute="top" secondItem="1Zn-Rf-l2O" secondAttribute="top" constant="18" id="Vfb-ml-b9h"/>
-                        <constraint firstItem="AqE-HE-bAH" firstAttribute="centerX" secondItem="1Zn-Rf-l2O" secondAttribute="centerX" id="VwE-9E-euT"/>
+                        <constraint firstItem="AqE-HE-bAH" firstAttribute="leading" secondItem="UNR-6N-kne" secondAttribute="leading" id="ZDd-Am-ptr"/>
                         <constraint firstItem="UNR-6N-kne" firstAttribute="top" secondItem="AqE-HE-bAH" secondAttribute="bottom" constant="19" id="fTP-JB-hyy"/>
                         <constraint firstAttribute="bottom" secondItem="cfV-Z8-Bcl" secondAttribute="bottom" constant="10" id="ivp-Hc-qph"/>
-                        <constraint firstItem="AqE-HE-bAH" firstAttribute="leading" secondItem="1Zn-Rf-l2O" secondAttribute="leading" constant="16" id="oRu-9V-LBf"/>
                         <constraint firstItem="cfV-Z8-Bcl" firstAttribute="height" relation="greaterThanOrEqual" secondItem="1Zn-Rf-l2O" secondAttribute="height" multiplier="0.0449775" id="qi9-xy-Zh8"/>
                     </constraints>
                 </scrollView>
@@ -65,9 +64,9 @@
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="1Zn-Rf-l2O" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="K59-lc-1sv"/>
+                <constraint firstItem="1Zn-Rf-l2O" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="NMZ-DJ-2TO"/>
                 <constraint firstItem="1Zn-Rf-l2O" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="ViQ-g0-xNM"/>
-                <constraint firstAttribute="trailing" secondItem="1Zn-Rf-l2O" secondAttribute="trailing" id="bbN-Y3-LNY"/>
-                <constraint firstItem="1Zn-Rf-l2O" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ohj-Zn-MY3"/>
+                <constraint firstItem="1Zn-Rf-l2O" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="qso-3I-lkn"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="130.40000000000001" y="113.79310344827587"/>
