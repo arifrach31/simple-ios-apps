@@ -18,7 +18,7 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Yo6-Md-Tt6">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" style="plain" separatorStyle="none" allowsSelectionDuringEditing="YES" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Yo6-Md-Tt6">
                     <rect key="frame" x="16" y="0.0" width="382" height="774"/>
                     <color key="backgroundColor" red="0.82433464581942539" green="1" blue="0.97602748188940514" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <inset key="scrollIndicatorInsets" minX="0.0" minY="0.0" maxX="5" maxY="0.0"/>

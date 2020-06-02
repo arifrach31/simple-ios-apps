@@ -11,10 +11,10 @@ import UIKit
 struct Profile {
   let image: UIImage
   let name: String
-  let description: String
+  let headline: String
   let email: String
 }
 
 var myself: Profile {
-  Profile(image: UIImage(named: "me")!, name: "Arif Rachman", description: "iOS Developer at Telkom Indonesia", email: "Arifrach31@gmail.com")
+  Profile(image: UIImage(named: "me")!, name: "Arif Rachman", headline: "iOS Developer at Telkom Indonesia", email: "Arifrach31@gmail.com")
 }

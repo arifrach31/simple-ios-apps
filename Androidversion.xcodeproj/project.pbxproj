@@ -147,8 +147,8 @@
 		11F21E47248352BA00D21D4C /* DetailVersion */ = {
 			isa = PBXGroup;
 			children = (
-				11F21E48248352D400D21D4C /* DetailViewController.swift */,
 				11F21E49248352D400D21D4C /* DetailViewController.xib */,
+				11F21E48248352D400D21D4C /* DetailViewController.swift */,
 			);
 			path = DetailVersion;
 			sourceTree = "<group>";
@@ -382,6 +382,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Androidversion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -399,6 +400,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Androidversion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

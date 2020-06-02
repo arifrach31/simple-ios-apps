@@ -37,7 +37,7 @@ class ProfileViewController: UIViewController {
   func setContent() {
     imageProfile.image = myself.image
     nameProfile.text = myself.name
-    descProfile.text = myself.description
+    descProfile.text = myself.headline
     emailProfile.text = myself.email
     
     imageProfile.layer.borderWidth = 3

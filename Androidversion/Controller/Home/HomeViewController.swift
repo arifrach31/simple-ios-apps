@@ -48,7 +48,10 @@ extension HomeViewController: UITableViewDataSource {
   }
   
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-    let cell = tableView.dequeueReusableCell(withIdentifier: "HomeCell", for: indexPath) as! HomeTableViewCell
+    
+    guard let cell = tableView.dequeueReusableCell(withIdentifier: "HomeCell", for: indexPath) as? HomeTableViewCell else {
+        fatalError("Cell is not of kind HomeTableViewCell")
+    }
     
     let androidVersion = versionName[indexPath.section]
     cell.imageAndroid.image = androidVersion.image
@@ -74,8 +77,10 @@ extension HomeViewController: UITableViewDataSource {
 extension HomeViewController: UITableViewDelegate{
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     let detail = DetailViewController(nibName: "DetailViewController", bundle: nil)
-    detail.android = versionName[indexPath.row]
+    detail.android = versionName[indexPath.section]
     self.navigationController?.pushViewController(detail, animated: true)
+    
+    tableView.deselectRow(at: indexPath, animated: true)
   }
 }
 

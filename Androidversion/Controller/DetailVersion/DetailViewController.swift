@@ -14,8 +14,12 @@ class DetailViewController: UIViewController {
   @IBOutlet weak var imageAndroid: UIImageView!
   @IBOutlet weak var descAndroid: UILabel!
   
+  var android: Android?
+  
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    configureViews()
     setContent()
   }
   
@@ -25,7 +29,11 @@ class DetailViewController: UIViewController {
     UINavigationBar.appearance().isTranslucent = false
   }
   
-  var android: Android?
+  func configureViews() {
+    imageAndroid.layer.cornerRadius = 10
+    imageAndroid.clipsToBounds = true
+    imageAndroid.backgroundColor = .primaryColor
+  }
   
   func setContent() {
     if let result = android {

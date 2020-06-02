@@ -65,6 +65,6 @@ var versionName: [Android] = [
 
     Sudah cukup banyak orang yang memprediksi bahwa mereka akan menggunakan nama ini, mengingat sebelumnya, Google juga sudah pernah meminjam nama brand makanan ringat lain yang sudah terkemuka (Kitkat). Bahkan, beberapa pembaca blog Techijau.com ini pun juga sudah sempat memprediksinya, yang disampaikan melalui kolom komentar.
 
-      Versi ini menawarkan sebuah pengalaman multitasking yang lebih baik dari sebelumnya, dimana pengguna dapat membuka dua aplikasi sekaligus yang dapat ditampilkan secara bersamaan. Lengkapnya, silakan baca pada link diatas.
+    Versi ini menawarkan sebuah pengalaman multitasking yang lebih baik dari sebelumnya, dimana pengguna dapat membuka dua aplikasi sekaligus yang dapat ditampilkan secara bersamaan. Lengkapnya, silakan baca pada link diatas.
     """),
 ]
